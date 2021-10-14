@@ -1,0 +1,6 @@
+- [x] invoque o método teste
+- [ ] Invoque setUp primeiro
+- [ ] Invoque tearDown depois 
+- [ ] Invoque tearDown mesmo se o método teste falhar
+- [ ] Rode múltiplos testes
+- [ ] Informe resultados coletados
