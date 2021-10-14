@@ -1,7 +1,9 @@
 - [x] invoque o método teste
 - [x] Invoque setUp primeiro
 - [x] Invoque tearDown depois 
+- [x] Informe resultados coletados
+- [x] String de registro em wasRun
+- [x] Capturar e informar erros em setUp
+- [x] Informar testes que falharam
 - [ ] Invoque tearDown mesmo se o método teste falhar
 - [ ] Rode múltiplos testes
-- [ ] Informe resultados coletados
-- [x] String de registro em wasRun
