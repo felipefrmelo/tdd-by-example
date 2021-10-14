@@ -1,4 +1,4 @@
-class TestCase(object):
+class TestCase:
     def __init__(self, name):
         self.name = name
 
@@ -9,18 +9,21 @@ class TestCase(object):
         self.setUp()
         method = getattr(self, self.name)
         method()
+        self.tearDown()
+
+    def tearDown(self):
+        pass
 
 
 class WasRun(TestCase):
     def __init__(self, name):
         super().__init__(name)
-        self.wasRun = None
 
     def testMethod(self):
-        pass
-    
-    def setUp(self):
-        self.wasRun = 1
-        self.wasSetUp = 1
-    
+        self.log += " testMethod"
 
+    def setUp(self):
+        self.log = "setUp"
+
+    def tearDown(self):
+        self.log += " tearDown"
