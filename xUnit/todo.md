@@ -5,5 +5,6 @@
 - [x] String de registro em wasRun
 - [x] Capturar e informar erros em setUp
 - [x] Informar testes que falharam
+- [x] Rode múltiplos testes
 - [ ] Invoque tearDown mesmo se o método teste falhar
-- [ ] Rode múltiplos testes
+- [ ] Crie TestSuite de uma classe TestCase
